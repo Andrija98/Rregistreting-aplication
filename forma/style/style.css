@@ -1,0 +1,84 @@
+
+*{
+    box-sizing: border-box;
+    margin:  0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: 650px;
+    height: 50vh;
+}
+.container form, input{
+    width: 80%;
+    margin: 0 5px;
+    border-radius: 5px;
+    
+}
+.container .organize-control{
+    display: flex;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+}
+.container .organize-control input, label{
+    
+    padding: 5px;
+}
+.container .form-control{
+    display: flex;
+    justify-content: center;
+    margin:  5px;
+}
+img{
+    width: 10rem;
+}
+h2{
+    margin: 1.5rem;
+}
+a{
+    color: orange;
+}
+.btn-login{
+    text-decoration: none;
+    background-color: orange;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s all;
+}
+.btn{
+    border: 1px solid black;
+}
+.btn-logout{
+    background-color: orange;
+    /* margin: 15px; */
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    color: white;
+}
+.btn:hover {
+    transform: scale(0.98);
+}
+.btn:active {
+    box-shadow: 6px 5px 42px 1px rgba(255, 2, 2, 0.4);
+    border: none;
+}
+#registrate{
+    background-color: orange;
+    font-size: 1.7rem;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
